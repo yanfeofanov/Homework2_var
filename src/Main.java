@@ -23,5 +23,42 @@ public class Main {
                             System.out.println(cat);
                                 System.out.println(paper);
 
+        var friend = 19;
+        System.out.println(friend);
+            friend = friend + 2;
+                System.out.println(friend);
+                    friend = friend / 7;
+                        System.out.println(friend);
+
+        var frog = 3.5;
+        System.out.println(frog);
+            frog = frog * 10;
+                System.out.println(frog);
+                    frog = frog / 3.5;
+                        System.out.println(frog);
+                            frog = frog + 4;
+                                System.out.println(frog);
+
+        var firstFighter = 78.2;
+        var secondFighter = 82.7;
+        System.out.println("Вес первого боксера " + firstFighter + "кг" );
+        System.out.println("Вес второго боксера " + secondFighter + "кг" );
+        var totalWeightFighter = firstFighter + secondFighter;
+        System.out.println("Общий вес боксеров " + totalWeightFighter + "кг");
+        var weightDifferenceOne = (secondFighter - firstFighter);
+        System.out.println("Разница веса боксеров составляет " + weightDifferenceOne + "кг" );
+        var weightDifferenceTwo = (secondFighter % firstFighter);
+        System.out.println("Разница веса боксеров состовляет " + weightDifferenceTwo + "кг");
+
+
+        var allTime = 640;
+        var everyEmployee = 8;
+        var totalEmployees = allTime / everyEmployee;
+        System.out.println("Всего работников в компании - " + totalEmployees + " человек");
+        var addEmployees =  totalEmployees + 94;
+        var compliteEmployees = allTime / addEmployees;
+        System.out.println("Если в компании работает " + addEmployees + " человек, то всего " + compliteEmployees + " часов работы может быть поделено между сотрудниками" );
+
+
     }
 }
