@@ -39,5 +39,17 @@ public class Main {
                             frog = frog + 4;
                                 System.out.println(frog);
 
+        var firstFighter = 78.2;
+        var secondFighter = 82.7;
+        System.out.println("Вес первого боксера " + firstFighter + "кг" );
+        System.out.println("Вес второго боксера " + secondFighter + "кг" );
+        var totalWeightFighter = firstFighter + secondFighter;
+        System.out.println("Общий вес боксеров " + totalWeightFighter + "кг");
+        var weightDifferenceOne = (secondFighter - firstFighter);
+        System.out.println("Разница веса боксеров составляет " + weightDifferenceOne + "кг" );
+        var weightDifferenceTwo = (secondFighter % firstFighter);
+        System.out.println("Разница веса боксеров состовляет " + weightDifferenceTwo + "кг");
+
+
     }
 }
