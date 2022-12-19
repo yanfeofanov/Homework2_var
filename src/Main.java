@@ -51,5 +51,14 @@ public class Main {
         System.out.println("Разница веса боксеров состовляет " + weightDifferenceTwo + "кг");
 
 
+        var allTime = 640;
+        var everyEmployee = 8;
+        var totalEmployees = allTime / everyEmployee;
+        System.out.println("Всего работников в компании - " + totalEmployees + " человек");
+        var addEmployees =  totalEmployees + 94;
+        var compliteEmployees = allTime / addEmployees;
+        System.out.println("Если в компании работает " + addEmployees + " человек, то всего " + compliteEmployees + " часов работы может быть поделено между сотрудниками" );
+
+
     }
 }
